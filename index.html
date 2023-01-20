@@ -10,9 +10,21 @@
 </head>
 
 <body>
-  <h1>Alright. You're set.</h1>
-  <h2>Now build something amazing!</h2>
-  <button type="button">Click Me!</button>
+  <h1>Values Buttons for Timeles</h1>
+  <p>The ideas is to pass in an array of objects containing a value and a display string.</p>
+  <code>
+  <pre>
+const data = [
+  { display: "0:05", value: 300 },
+  { display: "0:10", value: 600 },
+  { display: "0:30", value: 1800 },
+  { display: "1:00", value: 3600 },
+  { display: "2:00", value: 7200 },
+  { display: "3:00", value: 10800 },
+];
+  </pre>
+</code>
+  <p>Then create a list of buttons for each object in the array.</p>
 
   <div id="button-container"></div>
 
